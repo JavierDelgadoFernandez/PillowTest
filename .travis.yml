@@ -1,0 +1,10 @@
+addons:
+  apt:
+    packages:
+      - libfreetype6-dev
+
+language: python
+
+script:
+  - "python test.py"
+
